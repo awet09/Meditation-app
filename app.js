@@ -32,7 +32,7 @@ const app = () => {
         checkPlaying(song);
     });
 
-    //Select sound
+    //Select time
     timeSelect.forEach(option => {
         option.addEventListener('click', function () {
             fakeDuration = this.getAttribute('data-time');
